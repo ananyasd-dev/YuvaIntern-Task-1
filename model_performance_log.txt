@@ -1,0 +1,14 @@
+=== SUPERVISED MODEL EVALUATION DATA LOG ===
+Cross-Validation Mean Accuracy: 0.4444
+Holdout Split Final Test Accuracy: 0.7500
+
+Classification Performance Breakdown:
+              precision    recall  f1-score   support
+
+           0       0.50      1.00      0.67         1
+           1       1.00      0.67      0.80         3
+
+    accuracy                           0.75         4
+   macro avg       0.75      0.83      0.73         4
+weighted avg       0.88      0.75      0.77         4
+
