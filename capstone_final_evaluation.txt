@@ -1,0 +1,24 @@
+=======================================================
+INTEGRATIVE DATA SCIENCE CAPSTONE PIPELINE LOG REPORT
+=======================================================
+Total Processed Cohort Volume: 20 Records
+Features Selected: Pclass, Age, Fare
+Target Classification Element: Survived (Binary)
+
+[UNSUPERVISED METRICS]
+K-Means Structural Cluster Counts Configured: K=3 Distinct Archetypes
+
+[SUPERVISED COMPARATIVE ANALYSIS]
+- Linear Logistic Regression Validation Accuracy: 1.0000
+- Artificial Neural Network (MLP) Validation Accuracy: 0.7500
+
+Detailed Artificial Neural Network Performance Breakdown:
+              precision    recall  f1-score   support
+
+           0       0.50      1.00      0.67         1
+           1       1.00      0.67      0.80         3
+
+    accuracy                           0.75         4
+   macro avg       0.75      0.83      0.73         4
+weighted avg       0.88      0.75      0.77         4
+
