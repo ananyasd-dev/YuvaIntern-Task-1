@@ -1,0 +1,18 @@
+=== NEURAL NETWORK ARCHITECTURE & EVALUATION LOG ===
+Network Architecture Layout: Input (3) -> Hidden Layer 1 (8 Nodes) -> Hidden Layer 2 (4 Nodes) -> Output Layer (1 Node)
+Activation Function: ReLU
+Optimization Solver: Adam
+Maximum Target Iterations (Epochs): 500
+
+Final Validation Inference Accuracy: 0.7500
+
+Detailed Performance Classification Breakdowns:
+              precision    recall  f1-score   support
+
+           0       0.50      1.00      0.67         1
+           1       1.00      0.67      0.80         3
+
+    accuracy                           0.75         4
+   macro avg       0.75      0.83      0.73         4
+weighted avg       0.88      0.75      0.77         4
+
